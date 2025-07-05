@@ -5,10 +5,11 @@
     "@wdio/cli": "^9.16.2",
     "@wdio/cucumber-framework": "^9.16.2",
     "@wdio/local-runner": "^9.16.2",
-    "@wdio/spec-reporter": "^9.16.2"
+    "@wdio/spec-reporter": "^9.16.2",
+    "cross-env": "^7.0.3"
   },
   "scripts": {
-    "test-chrome": "set NODE_ENV=dev & wdio ./src/config/wdio.chrome.conf.ts --spec ./tests/features/google-search.feature",
-    "test-edge": "set NODE_ENV=dev & wdio ./src/config/wdio.edge.conf.ts --spec ./tests/features/google-search.feature"
+    "test-chrome": "cross-env TEST_ENV=dev & wdio ./src/config/wdio.chrome.conf.ts --spec ./tests/features/google-search.feature",
+    "test-edge": "cross-env TEST_ENV=dev & wdio ./src/config/wdio.edge.conf.ts --spec ./tests/features/google-search.feature"
   }
 }

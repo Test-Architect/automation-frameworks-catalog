@@ -6,7 +6,7 @@ class ConfigManager {
     // Initialize on first import
     static {
         dotenv.config(); // Load .env variables into process.env
-        const env = (process.env.NODE_ENV || "DEV").toUpperCase();
+        const env = (process.env.TEST_ENV || "DEV").toUpperCase();
         ConfigManager.prefix = `${env.trim()}_`;
     }
 
