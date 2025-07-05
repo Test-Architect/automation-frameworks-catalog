@@ -1,10 +1,4 @@
 import type { Options } from '@wdio/types';
-// import { exec } from 'child_process';
-// import path from 'path';
-
-
-// const allureReportPath = path.join(process.cwd(), 'allure-report');
-// const allureResultsPath = path.join(process.cwd(), 'allure-results');
 
 declare module '@wdio/types' {
     namespace Options {
@@ -63,14 +57,6 @@ export const config: Options.Testrunner = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    // capabilities: [{
-    //     // capabilities for local Appium web tests on an Android Emulator
-    //     platformName: 'Android',
-    //     browserName: 'Chrome',
-    //     'appium:deviceName': 'Android GoogleAPI Emulator',
-    //     'appium:platformVersion': '12.0',
-    //     'appium:automationName': 'UiAutomator2'
-    // }],
     //
     // ===================
     // Test Configurations
@@ -142,12 +128,12 @@ export const config: Options.Testrunner = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [
         'spec',
-        // ['allure', {
-        //     outputDir: allureResultsPath,
-        //     disableWebdriverStepsReporting: true,
-        //     disableWebdriverScreenshotsReporting: true,
-        //     disableMochaHooks: true,
-        // }]
+        ['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
+            disableMochaHooks: true,
+        }]
     ],
     framework: 'cucumber',
 
@@ -181,17 +167,7 @@ export const config: Options.Testrunner = {
         // <boolean> Enable this config to treat undefined definitions as warnings.
         ignoreUndefinedDefinitions: false
     },
-    onComplete: async function () {
-        // console.log('Generating Allure report...')
-
-        // exec('allure generate allure-results --clean -o allure-report', (error) => {
-        //     if (error) {
-        //         console.error('Error generating Allure report:', error)
-        //         return
-        //     }
-        //     console.log('Allure report successfully generated!')
-        //     // exec('allure open allure-report')
-        // })
+    onComplete: function () {
     },
     /**
     * Gets executed once before all workers get launched.

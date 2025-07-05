@@ -8,9 +8,11 @@ Given("I am on Google home page", async () => {
 
 When("I search for {string}", async (term: string) => {
     await googleHomePage.search(term);
+    
 });
 
 Then("I see the results", async () => {
+    await googleHomePage.waitForIsShown();
     let stats = await googleHomePage.getResultStats();
     expect(stats).toEqual(true);
 });
