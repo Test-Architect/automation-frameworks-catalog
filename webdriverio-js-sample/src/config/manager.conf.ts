@@ -11,8 +11,8 @@ class ConfigManager {
     }
 
     public static get(key: string): string {
-        
-        const fullKey = this.prefix + key;
+
+        const fullKey = `${this.prefix}${key}`;
         const value = process.env[fullKey];
         if (!value) {
             throw new Error(`❌ Missing environment variable: ${fullKey}`);
