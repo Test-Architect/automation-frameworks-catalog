@@ -1,26 +1,32 @@
-Here’s the table updated with a **Contributor** column you can fill in as folks step up:
+Here’s the table now including a **TypeScript** section with the core frameworks:
 
-| Platform      | Framework                   | Suggested Repo Name            | Status      | Repo                                                               | Contributor |
-| ------------- | --------------------------- | ------------------------------ | ----------- | ------------------------------------------------------------------ | ----------- |
-| ☕️ **Java**   | Playwright Java BDD         | `playwright-java-bdd-sample`   | ✅ Completed | [🔗](https://github.com/Test-Architect/playwright-java-bdd-sample) |[lamhotsiagian](https://github.com/lamhotsiagian)|
-| ☕️ **Java**   | Selenium WebDriver          | `selenium-java-sample`         | ⏳ Pending   |                                                                    |             |
-| ☕️ **Java**   | TestNG                      | `testng-java-sample`           | ⏳ Pending   |                                                                    |             |
-| ☕️ **Java**   | JUnit 5                     | `junit5-java-sample`           | ⏳ Pending   |                                                                    |             |
-| ☕️ **Java**   | Cucumber-JVM                | `cucumber-java-bdd-sample`     | ⏳ Pending   |                                                                    |             |
-| ☕️ **Java**   | Rest Assured                | `rest-assured-java-sample`     | ⏳ Pending   |                                                                    |             |
-| 🐍 **Python** | PyTest                      | `pytest-python-sample`         | ⏳ Pending   |                                                                    |             |
-| 🐍 **Python** | Robot Framework             | `robotframework-python-sample` | ⏳ Pending   |                                                                    |             |
-| 🐍 **Python** | Behave                      | `behave-python-bdd-sample`     | ⏳ Pending   |                                                                    |             |
-| 🐍 **Python** | Lettuce                     | `lettuce-python-sample`        | ⏳ Pending   |                                                                    |             |
-| 🐍 **Python** | unittest                    | `unittest-python-sample`       | ⏳ Pending   |                                                                    |             |
-| 🟨 **JS**     | Playwright                  | `playwright-js-sample`         | ⏳ Pending   |                                                                    |             |
-| 🟨 **JS**     | Cypress                     | `cypress-js-sample`            | ⏳ Pending   |                                                                    |             |
-| 🟨 **JS**     | Jest                        | `jest-js-sample`               | ⏳ Pending   |                                                                    |             |
-| 🟨 **JS**     | Mocha + Chai                | `mocha-chai-js-sample`         | ⏳ Pending   |                                                                    |             |
-| 🟨 **JS**     | WebdriverIO                 | `webdriverio-js-sample`        | ✅ Completed | [🔗](https://github.com/Test-Architect/webdriverio-js-sample)      |[KennyFrans](https://github.com/KennyFrans)  |
-| 🟨 **JS**     | TestCafe                    | `testcafe-js-sample`           | ⏳ Pending   |                                                                    |             |
-| 🟨 **JS**     | Cucumber.js                 | `cucumber-js-sample`           | ⏳ Pending   |                                                                    |             |
-| 🤖 **Appium** | Appium Java Client          | `appium-java-sample`           | ⏳ Pending   |                                                                    |             |
-| 🤖 **Appium** | Appium Python Client        | `appium-python-sample`         | ⏳ Pending   |                                                                    |             |
-| 🤖 **Appium** | Appium JavaScript Client    | `appium-js-sample`             | ⏳ Pending   |                                                                    |             |
-| 🤖 **Appium** | WebdriverIO + Appium Plugin | `webdriverio-appium-sample`    | ⏳ Pending   |                                                                    |             |
+| Platform          | Framework                   | Suggested Repo Name            | Status      | Repo                                                               | Contributor                                       |
+| ----------------- | --------------------------- | ------------------------------ | ----------- | ------------------------------------------------------------------ | ------------------------------------------------- |
+| ☕️ **Java**       | Playwright Java BDD         | `playwright-java-bdd-sample`   | ✅ Completed | [🔗](https://github.com/Test-Architect/playwright-java-bdd-sample) | [lamhotsiagian](https://github.com/lamhotsiagian) |
+| ☕️ **Java**       | Selenium WebDriver          | `selenium-java-sample`         | ⏳ Pending   |                                                                    |                                                   |
+| ☕️ **Java**       | TestNG                      | `testng-java-sample`           | ⏳ Pending   |                                                                    |                                                   |
+| ☕️ **Java**       | JUnit 5                     | `junit5-java-sample`           | ⏳ Pending   |                                                                    |                                                   |
+| ☕️ **Java**       | Cucumber-JVM                | `cucumber-java-bdd-sample`     | ⏳ Pending   |                                                                    |                                                   |
+| ☕️ **Java**       | Rest Assured                | `rest-assured-java-sample`     | ⏳ Pending   |                                                                    |                                                   |
+| 🐍 **Python**     | PyTest                      | `pytest-python-sample`         | ⏳ Pending   |                                                                    |                                                   |
+| 🐍 **Python**     | Robot Framework             | `robotframework-python-sample` | ⏳ Pending   |                                                                    |                                                   |
+| 🐍 **Python**     | Behave                      | `behave-python-bdd-sample`     | ⏳ Pending   |                                                                    |                                                   |
+| 🐍 **Python**     | Lettuce                     | `lettuce-python-sample`        | ⏳ Pending   |                                                                    |                                                   |
+| 🐍 **Python**     | unittest                    | `unittest-python-sample`       | ⏳ Pending   |                                                                    |                                                   |
+| 🟦 **TypeScript** | Playwright                  | `playwright-typescript-sample` | ⏳ Pending   |                                                                    |                                                   |
+| 🟦 **TypeScript** | Cypress                     | `cypress-typescript-sample`    | ⏳ Pending   |                                                                    |
+| 🟦 **TypeScript** | Jest                        | `jest-typescript-sample`       | ⏳ Pending   |                                                                    |                                                   |
+| 🟦 **TypeScript** | Mocha + Chai                | `mocha-chai-ts-sample`         | ⏳ Pending   |                                                                    |                                                   |
+| 🟦 **TypeScript** | Cucumber.js (TS)            | `webdriverio-ts-bdd-sample`    | ✅ Completed | [🔗](https://github.com/Test-Architect/webdriverio-js-sample)      | [KennyFrans](https://github.com/KennyFrans)   |
+| 🟨 **JavaScript** | Playwright                  | `playwright-js-sample`         | ⏳ Pending   |                                                                    |                                                   |
+| 🟨 **JavaScript** | Cypress                     | `cypress-js-sample`            | ⏳ Pending   |                                                                    |                                                   |
+| 🟨 **JavaScript** | Jest                        | `jest-js-sample`               | ⏳ Pending   |                                                                    |                                                   |
+| 🟨 **JavaScript** | Mocha + Chai                | `mocha-chai-js-sample`         | ⏳ Pending   |                                                                    |                                                   |
+| 🟨 **JavaScript** | WebdriverIO                 | `webdriverio-js-sample`        | ⏳ Pending   |                                                                    |                                                 |
+| 🟨 **JavaScript** | TestCafe                    | `testcafe-js-sample`           | ⏳ Pending   |                                                                    |                                                   |
+| 🟨 **JavaScript** | Cucumber.js                 | `cucumber-js-sample`           | ⏳ Pending   |                                                                    |                                                   |
+| 🤖 **Appium**     | Appium Java Client          | `appium-java-sample`           | ⏳ Pending   |                                                                    |                                                   |
+| 🤖 **Appium**     | Appium Python Client        | `appium-python-sample`         | ⏳ Pending   |                                                                    |                                                   |
+| 🤖 **Appium**     | Appium JavaScript Client    | `appium-js-sample`             | ⏳ Pending   |                                                                    |                                                   |
+| 🤖 **Appium**     | WebdriverIO + Appium Plugin | `webdriverio-appium-sample`    | ⏳ Pending   |                                                                    |                                                   |
+| 🤖 **Appium**     | Appium TypeScript Client    | `appium-typescript-sample`     | ⏳ Pending   |                                                                    |                                                   |
